@@ -20,6 +20,7 @@
   /* app surfaces, light theme */
   --bg-base: #F1F5F9;
   --bg-surface: #FFFFFF;
+  --bg-card: #FFFFFF;
   --bg-elevated: #E2E8F0;
   --border: rgba(37, 99, 235,0.28);
   --border-subtle: rgba(0,0,0,0.1);
@@ -41,7 +42,7 @@ body {
 
 /* display font, tight + condensed */
 .font-display {
-  font-family: 'DM Sans', 'Arial Narrow', sans-serif;
+  font-family: 'Poppins', 'DM Sans', sans-serif;
   font-weight: 700;
   letter-spacing: -0.02em;
   text-transform: uppercase;

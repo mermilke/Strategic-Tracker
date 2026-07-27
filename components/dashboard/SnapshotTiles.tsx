@@ -46,7 +46,7 @@ export default function SnapshotTiles({ data, weekOptions, selectedWeek, setExpa
                 }
                 return (
                   <div key={obj.id}>
-                    <div className="truncate mt-1 mb-0.5 cursor-pointer" style={{ fontSize: 10, fontWeight: 600, color: '#D62027', letterSpacing: '0.02em', cursor: 'pointer' }}
+                    <div className="truncate mt-1 mb-0.5 cursor-pointer" style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-secondary)', letterSpacing: '0.02em', cursor: 'pointer' }}
                       role="button" tabIndex={0} aria-label={`Jump to ${obj.short_title || obj.title}`} title={obj.title}
                       onClick={expandObj}
                       onKeyDown={onActivate(expandObj)}
@@ -95,7 +95,7 @@ export default function SnapshotTiles({ data, weekOptions, selectedWeek, setExpa
                           title={sub.short_title || sub.title}
                           onClick={openSub}
                           onKeyDown={onActivate(openSub)}
-                          onMouseOver={e => e.currentTarget.style.background = '#B4E4ED'}
+                          onMouseOver={e => e.currentTarget.style.background = 'rgba(37,99,235,0.06)'}
                           onMouseOut={e => e.currentTarget.style.background = 'transparent'}
                         >
                           <div className="flex-shrink-0" style={{ fontSize: 10, fontWeight: 500, color: 'var(--text-secondary)', width: 22 }}>
